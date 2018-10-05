@@ -5,7 +5,7 @@ if [ -e "~/.config/nvim/init.vim" ]; then
 	mv ~/.config/nvim/init.vim ~/.config/nvim/init.vim.old
 fi
 
-ln -s $(pwd)/init.vim ~/.config/nvim/init.vim
+ln -sf $(pwd)/init.vim ~/.config/nvim/init.vim
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
