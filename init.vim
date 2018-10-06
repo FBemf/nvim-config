@@ -9,6 +9,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-sleuth'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'morhetz/gruvbox'
 
@@ -24,8 +25,8 @@ nnoremap <space> :nohlsearch<CR> " turn off search highlight with 'space'
 set ignorecase  " for /find
 set smartcase
 
-set autoindent  " indents to previous line
-set smartindent
+"set autoindent  " indents to previous line
+"set smartindent
 
 " Terminal
 tnoremap <Esc> <C-\><C-n>
