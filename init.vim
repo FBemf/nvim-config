@@ -10,10 +10,11 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
-Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
-Plug 'svermeulen/vim-easyclip'
+"" I'd like to enable this, but it just doesn't work in nvim now
+"Plug 'svermeulen/vim-easyclip'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 
 call plug#end()
@@ -43,3 +44,14 @@ let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+
+"" lightline
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox',
+      \ }
+let g:lightline.separator = {
+	\   'left': '', 'right': ''
+  \}
+let g:lightline.subseparator = {
+	\   'left': '', 'right': '' 
+  \}
