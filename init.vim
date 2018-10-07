@@ -15,6 +15,7 @@ Plug 'tpope/vim-repeat'
 "Plug 'svermeulen/vim-easyclip'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'itchyny/lightline.vim'
+Plug 'w0rp/ale'
 Plug 'morhetz/gruvbox'
 
 call plug#end()
@@ -33,7 +34,7 @@ set smartcase
 "set smartindent
 
 " Terminal
-tnoremap <Esc> <C-\><C-n>
+" tnoremap <Esc> <C-\><C-n>
 
 " Allow saving of files as sudo when I forget to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
