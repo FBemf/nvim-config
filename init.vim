@@ -50,9 +50,3 @@ let NERDTreeDirArrows = 1
 let g:lightline = {
       \ 'colorscheme': 'gruvbox',
       \ }
-let g:lightline.separator = {
-	\   'left': '', 'right': ''
-  \}
-let g:lightline.subseparator = {
-	\   'left': '', 'right': '' 
-  \}
