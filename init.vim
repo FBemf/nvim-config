@@ -34,7 +34,7 @@ set smartcase
 "set smartindent
 
 " Terminal
-" tnoremap <Esc> <C-\><C-n>
+tnoremap <C-w> <C-\><C-n><C-w>
 
 " Allow saving of files as sudo when I forget to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
