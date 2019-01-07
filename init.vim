@@ -17,6 +17,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'itchyny/lightline.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'w0rp/ale'
+Plug 'rust-lang/rust.vim'
 " Plug 'morhetz/gruvbox'
 
 call plug#end()
@@ -26,7 +27,7 @@ if (has("termguicolors"))
  set termguicolors
 endif
 
-colourscheme tender
+colorscheme tender
 "colorscheme gruvbox
 "set background=dark
 
