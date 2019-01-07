@@ -15,13 +15,21 @@ Plug 'tpope/vim-repeat'
 "Plug 'svermeulen/vim-easyclip'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'itchyny/lightline.vim'
+Plug 'jacoborus/tender.vim'
 Plug 'w0rp/ale'
-Plug 'morhetz/gruvbox'
+Plug 'rust-lang/rust.vim'
+" Plug 'morhetz/gruvbox'
 
 call plug#end()
 
-colorscheme gruvbox
-set background=dark
+" If you have vim >=8.0 or Neovim >= 0.1.5
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+colorscheme tender
+"colorscheme gruvbox
+"set background=dark
 
 set number      " line numbers
 "set encoding=utf-8
@@ -48,5 +56,5 @@ let NERDTreeDirArrows = 1
 
 "" lightline
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'tender',
       \ }
