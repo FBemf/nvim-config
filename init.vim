@@ -32,6 +32,9 @@ colorscheme tender
 "set background=dark
 
 set number      " line numbers
+
+set mouse=a
+
 "set encoding=utf-8
 nnoremap <space> :nohlsearch<CR> " turn off search highlight with 'space'
 
