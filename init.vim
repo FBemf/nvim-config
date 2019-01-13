@@ -15,6 +15,8 @@ Plug 'tpope/vim-repeat'
 "Plug 'svermeulen/vim-easyclip'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'itchyny/lightline.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'w0rp/ale'
 Plug 'rust-lang/rust.vim'
