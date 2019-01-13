@@ -22,6 +22,8 @@ Plug 'w0rp/ale'
 Plug 'rust-lang/rust.vim'
 " Plug 'morhetz/gruvbox'
 
+Plug 'takac/vim-hardtime'       " you asked for it
+
 call plug#end()
 
 " If you have vim >=8.0 or Neovim >= 0.1.5
