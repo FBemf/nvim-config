@@ -48,6 +48,7 @@ set smartcase
 
 let g:hardtime_default_on=1   " It'll stay here until you learn!
 let g:hardtime_timeout=650
+let g:hardtime_allow_different_key=1    " you can keep this if you behave
 
 "set autoindent  " indents to previous line
 "set smartindent
