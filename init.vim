@@ -46,7 +46,8 @@ set ignorecase  " for /find
 set smartcase
 
 
-let g:hardtime_default_on = 1   " It'll stay here until you learn!
+let g:hardtime_default_on=1   " It'll stay here until you learn!
+let g:hardtime_timeout=650
 
 "set autoindent  " indents to previous line
 "set smartindent
