@@ -40,10 +40,13 @@ set number      " line numbers
 set mouse=a
 
 "set encoding=utf-8
-nnoremap <space> :nohlsearch<CR> " turn off search highlight with 'space'
+nnoremap <space> :nohlsearch<CR>  " turn off search highlight with 'space'
 
 set ignorecase  " for /find
 set smartcase
+
+
+let g:hardtime_default_on = 1   " It'll stay here until you learn!
 
 "set autoindent  " indents to previous line
 "set smartindent
