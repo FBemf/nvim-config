@@ -45,12 +45,26 @@ nnoremap <space> :nohlsearch<CR>  " turn off search highlight with 'space'
 set ignorecase  " for /find
 set smartcase
 
+" Lozenge char for writing pollen
+digraphs ll 9674
 
-let g:hardtime_default_on=1   " It'll stay here until you learn!
+let g:hardtime_default_on=0   " It'll stay here until you learn!
 let g:hardtime_timeout=750
 
 "set autoindent  " indents to previous line
 "set smartindent
+
+"" To make dealing with wrapped text more pleasant
+
+"" These make <count>j behave normally even as
+"" j behaves like gj
+"nnoremap <expr> j v:count ? 'j' : 'gj'
+"nnoremap <expr> k v:count ? 'k' : 'gk'
+
+nnoremap j gj
+nnoremap k gk
+nnoremap gj j
+nnoremap gk k
 
 " Terminal
 tnoremap <C-w> <C-\><C-n><C-w>
