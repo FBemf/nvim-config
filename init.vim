@@ -36,14 +36,15 @@ colorscheme tender
 "set background=dark
 
 set number      " line numbers
-
+set linebreak
 set mouse=a
-
-"set encoding=utf-8
-nnoremap <space> :nohlsearch<CR>  " turn off search highlight with 'space'
 
 set ignorecase  " for /find
 set smartcase
+
+
+"set encoding=utf-8
+nnoremap <space> :nohlsearch<CR>  " turn off search highlight with 'space'
 
 " Lozenge char for writing pollen
 digraphs ll 9674
@@ -61,6 +62,7 @@ let g:hardtime_timeout=750
 "nnoremap <expr> j v:count ? 'j' : 'gj'
 "nnoremap <expr> k v:count ? 'k' : 'gk'
 
+" kj-ing between wrapped lines
 nnoremap j gj
 nnoremap k gk
 nnoremap gj j
