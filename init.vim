@@ -18,7 +18,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'jacoborus/tender.vim'
-Plug 'w0rp/ale'
+Plug 'desmap/ale-sensible' | Plug 'w0rp/ale'
 Plug 'rust-lang/rust.vim'
 " Plug 'morhetz/gruvbox'
 
